@@ -134,3 +134,33 @@ button {
   padding-top: 10px;
   margin-left: auto;
 }
+
+.cta-container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.cta-background {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3882F6;
+  margin-left: 120px;
+  margin-right: 120px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 5px;
+  color: #F9FAF8;
+  font-weight: lighter;
+}
+
+.cta-background button {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #F9FAF8;
+}
+
+.cta {
+  font-weight: bold;
+}
