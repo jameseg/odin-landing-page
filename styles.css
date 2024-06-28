@@ -71,6 +71,35 @@ button {
   height: 230px;
   text-align: center;
   line-height: 230px;
+}
 
+.info-header {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
 
+.images-container {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.sm-image {
+  border-style: solid;
+  border-color: #3882F6;
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.sm-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 200px;
 }
