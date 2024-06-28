@@ -2,6 +2,12 @@
 <html lang="en">
 
 <head>
+  <!-- embedded Google Fonts Roboto font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,20 +16,36 @@
 
 <body>
   <div class="hero">
-    <h3>Header Logo</h3>
+    <div class="header">
+      <h3 class="logo-text">Header Logo</h3>
 
-    <a href="www.google.com">header link one</a>
-    <a href="www.google.com">header link two</a>
-    <a href="www.google.com">header link three</a>
+      <div class="links">
+        <a href="www.google.com" class="hero-text">header link one</a>
+        <a href="www.google.com" class="hero-text">header link two</a>
+        <a href="www.google.com" class="hero-text">header link three</a>
+      </div>
 
-    <h1>This website is awesome</h1>
+    </div>
 
-    <span>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower
-      contrast</span>
 
-    <button>Sign up</button>
+    <div class="header-content">
+      <div class="left-panel">
+        <span class="hero-main-text">This website is awesome</span>
 
-    <img src="./images/image.jpg" alt="this is a placeholder for an image">
+        <span class="hero-text">This website has some subtext that goes here under the main title. It's a smaller font
+          and
+          the color is lower
+          contrast</span>
+
+        <button>Sign up</button>
+      </div>
+
+
+      <div><img src="./images/test-img.jpg" alt="this is a placeholder for an image"></div>
+    </div>
+
+
+
   </div>
 
 
